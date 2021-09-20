@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to KoaKoa Talk</title>
+</head>
+    <body>
+        <div class="status-bar">
+            <div class="status-bar__column">
+                <span>No Service</span>
+                <i class="fas fa-wifi"></i>
+                <!--will be icon-->
+                
+            </div>
+            <div class="status-bar__column">
+                <span>18:43</span>
+            </div>
+            <div class="status-bar__column">
+                <span>11%</span>
+                <i class="fas fa-battery-three-quarters"></i>
+                <i class="fas fa-bolt"></i>
+                <!-- battery icon charging icon-->
+            </div>
+        </div>
+
+        <header class="welcome-header">
+            <h1 class="welcome-header__title">  Welcome to KaKaoTalk</h1>
+            <p class="welcome-header__text"> 계정이 없다면 회원가입을, 이미 있으시면 로그인 하세요.</p>
+       </header>
+       <form action="friends.html" method="get" id="login-form">
+           <input name="username" type="text" placeholder="Email or number"/>
+           <input name="password" type="password" placeholder="Password" />
+           <input type="submit" value="Log in"/>
+           <a href="#"> Find KaKao Account</a>
+        
+       </form>
+       <div id="no-mobile">
+
+        <span>휴대폰 화면으로 조정해주세요.
+            
+        </span>
+    </div>
+        <script src="https://kit.fontawesome.com/6478f529f2.js"
+            crossorigin="anonymous"></script>
+    </body>
+</html>
