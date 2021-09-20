@@ -52,10 +52,10 @@ body {
   color:rgba(0,0,0,0.4);
 }
 #login-form input:focus{
-  border-color: var(--yellow);
+  border-color: skyblue;
 }
 #login-form input[type="submit"]{
-  background-color: var(--yellow);
+  background-color: skyblue;
   cursor:pointer;
   padding:20px;
   border-radius:5px;

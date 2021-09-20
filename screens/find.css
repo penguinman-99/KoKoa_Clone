@@ -1,7 +1,7 @@
 
 .recommended-friends{
-    margin:25px 0px;
-    padding:25px 0px;
+    margin:10px 0px;
+    padding:10px 0px;
     border-top:var(--main-border);
     border-bottom: var(--main-border);
 }
@@ -51,7 +51,7 @@
     margin-right:5px;
 }
 .open-post__member-count{
-    opacity: 0,5;
+    opacity: 0.5;
     font-size: 14px;
 }
 .open-post__members .divider{

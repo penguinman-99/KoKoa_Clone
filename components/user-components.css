@@ -4,6 +4,7 @@
 .user-component{
     display:flex;
     align-items: center;
+    margin-bottom: 20px;
 }
 .user-component__column:first-child{
     display:flex;
@@ -19,6 +20,11 @@
     width:80px;
     height:80px;
     border-radius: 27px;
+    margin-right: 20px;
+}
+.user-component__avatar--sm{
+    font-size:50px;
+    border-radius: 15px;
     margin-right: 20px;
 }
 .user-component__title{
